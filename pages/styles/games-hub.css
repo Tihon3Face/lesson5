@@ -1,0 +1,66 @@
+.card_container{
+    margin: 50px auto 0px auto;
+    width: 1520px;
+    height: 450px;
+}
+.card1,.card2,.card3,.card4{
+    opacity: 0.5;
+    border: 1px;
+    display:flex;
+    border-radius: 15px;
+    width: 280px;
+    height: 420px;
+    transition: 0.5s;
+    margin: auto 25px auto 25px;
+}
+.menu{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.menu>a{
+    margin: auto 25px;
+    font-size: 40px;
+    color: white;
+}
+.card1{
+    background: url("./img/CS-GO.png") center/cover ;
+}
+.card2{
+    background: url("./img/MCraft.png") center/cover;
+}
+.card3{
+    background: url("./img/AmongUs.png") center/cover;
+}
+.card4{
+    background: url("./img/Fortnite.png") center/cover;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    opacity: 1;
+}
+.href_card{
+    color: white;
+    margin: auto;
+    height: 58px;
+}
+.move_card{
+    width: fit-content;
+    margin: auto;
+    transition: 1s;
+}
+.name_card{
+    transition: 1s;
+    width: 200px;
+    font-size: 30px;
+    color:white;
+    background-color: orange;
+    border-radius: 15px;
+    padding: 10px 5px 10px 5px;
+    border: 2px solid white;
+    margin: 320px auto auto auto;
+}
+.href_card:hover .name_card{
+    width: 240px;
+    font-size: 35px;
+}
